@@ -6,6 +6,14 @@ use DDD\Contract\Exceptions\ConditionException;
 use DDD\Contract\Exceptions\PostconditionException;
 use DDD\Contract\Exceptions\PreconditionException;
 
+
+/**
+ * Inspire by  Object-Oriented Software Construction Bertrand Meyer
+ * and http://svengrand.blogspot.com/2008/11/preconditions-postconditions-invariants.html
+ *
+ * Class Assertion
+ * @package DDD\Contract
+ */
 class Assertion
 {
     /**
