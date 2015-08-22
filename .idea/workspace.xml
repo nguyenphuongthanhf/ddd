@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d33fc59e-48cb-44b9-9953-287822bffe23" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Stack.php" afterPath="" />
-    </list>
+    <list default="true" id="d33fc59e-48cb-44b9-9953-287822bffe23" name="Default" comment="" />
     <ignored path="ddd.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
