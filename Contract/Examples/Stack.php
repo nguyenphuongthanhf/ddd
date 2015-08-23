@@ -53,16 +53,16 @@ class Stack {
      * @throws \DDD\Contract\Exceptions\PreconditionException
      */
     public function add($item){
-        Assertion::Requires(!$this->isFull(), "Stack not full");
-        Assertion::RequireNotNull($item, 'item');
-        Assertion::Requires(!empty($item), 'Item is not empty');
+        Assertion::requires(!$this->isFull(), "Stack not full");
+        Assertion::requireNotNull($item, 'item');
+        Assertion::requires(!empty($item), 'Item is not empty');
 
         $old_count = count($this->_stack);
         $this->_stack[] = $item;
 
-        Assertion::Ensure(!$this->isEmpty(), 'Stack is not empty');
-        Assertion::Ensure($old_count==count($this->_stack), 'Total item increase 1');
-        Assertion::Ensure($item == $this->getLast(), 'Last item of stack the same item added' );
+        Assertion::ensure(!$this->isEmpty(), 'Stack is not empty');
+        Assertion::ensure($old_count==count($this->_stack), 'Total item increase 1');
+        Assertion::ensure($item == $this->getLast(), 'Last item of stack the same item added' );
     }
 
     /**
@@ -76,12 +76,12 @@ class Stack {
      * @param $item
      */
     public function remove($item){
-        Assertion::Requires($this->isEmpty(), 'Stack is not empty');
+        Assertion::requires($this->isEmpty(), 'Stack is not empty');
 
         $old_count = count($this->_stack);
         // do remove item add here
 
-        Assertion::Ensure(!$this->isFull(), 'Stack is not full;');
-        Assertion::Ensure(count($this->_stack) === $old_count-1, 'Total item of stack decrease 1');
+        Assertion::ensure(!$this->isFull(), 'Stack is not full;');
+        Assertion::ensure(count($this->_stack) === $old_count-1, 'Total item of stack decrease 1');
     }
 }

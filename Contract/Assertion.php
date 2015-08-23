@@ -22,7 +22,7 @@ class Assertion
      * @param  $description :the condition or describles it in other words.
      * @throws PreconditionException
      */
-    public static function Requires($condition, $description)
+    public static function requires($condition, $description)
     {
         if (!$condition) {
             throw new PreconditionException($description);
@@ -35,7 +35,7 @@ class Assertion
      * @param $objectName :is the name of the variable we test.
      * @throws PreconditionException
      */
-    public static function RequireNotNull($objectToBeTested, $objectName)
+    public static function requireNotNull($objectToBeTested, $objectName)
     {
         if (!is_null($objectToBeTested)) {
             throw new PreconditionException($objectName);
@@ -49,7 +49,7 @@ class Assertion
      * other words.
      * @throws PostconditionException
      */
-    public static function Ensure($condition, $description)
+    public static function ensure($condition, $description)
     {
         if (!$condition) {
             throw new PostconditionException($description);
@@ -63,7 +63,7 @@ class Assertion
      * other words.
      * @throws ConditionException
      */
-    public static function Check($condition, $description)
+    public static function check($condition, $description)
     {
         if (!$condition) {
             throw new ConditionException($description);
