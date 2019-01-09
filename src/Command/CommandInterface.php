@@ -1,5 +1,5 @@
 <?php
-namespace Mio\DDD\Command;
+namespace ThanhsMind\DDD\Command;
 
 use Exception;
 

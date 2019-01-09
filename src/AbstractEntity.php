@@ -1,5 +1,5 @@
 <?php
-namespace Mio\DDD;
+namespace ThanhsMind\DDD;
 
 
 abstract class AbstractEntity implements EntityInterface{

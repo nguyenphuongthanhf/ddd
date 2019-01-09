@@ -1,7 +1,7 @@
 <?php
 
-namespace Mio\DDD\EventRecording;
-use Mio\DDD\DomainEventInterface;
+namespace ThanhsMind\DDD\EventRecording;
+use ThanhsMind\DDD\DomainEventInterface;
 
 /**
  * Use this trait in classes which implement ContainsRecordedMessages to privately record and later release Message

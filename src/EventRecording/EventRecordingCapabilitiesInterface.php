@@ -1,6 +1,6 @@
 <?php
-namespace Mio\DDD\EventRecording;
-use Mio\DDD\DomainEventInterface;
+namespace ThanhsMind\DDD\EventRecording;
+use ThanhsMind\DDD\DomainEventInterface;
 
 interface EventRecordingCapabilitiesInterface extends ContainsRecordedEventsInterface {
 
