@@ -1,20 +1,20 @@
 {
-    "name": "mio/ddd",
+    "name": "thanhsmind/ddd",
     "description": "Implement all interface about ddd",
-    "homepage": "https://git.anphabe.net/mio/ddd",
+    "homepage": "https://github.com/thanhsmind/ddd",
     "keywords": ["ddd", "domain driven"],
     "license": "MIT",
     "authors": [
         {
             "name": "ThanhNP",
-            "email": "thanh.phuong.nguyen@anphabe.com"
+            "email": "nguyenphuongthanhf@gmail.com"
         }
     ],
 
     "autoload": {
         "psr-4": { 
-            "Mio\\DDD\\": "src",
-            "Mio\\DDD\\Tests\\": "tests"
+            "ThanhsMind\\DDD\\": "src",
+            "ThanhsMind\\DDD\\Tests\\": "tests"
          } 
     }
 }
