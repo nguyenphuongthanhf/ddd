@@ -1,2 +1,4 @@
-# ddd
-implement a few pattern ddd
+ddd
+===================
+
+Handle all concept standard about ddd

@@ -1,31 +1,20 @@
 {
-  "name": "nguyenphuongthanhf/ddd",
-  "description": "Implement all concept about DDD.",
-  "keywords": [
-    "DDD",
-    "Domain Design Driven",
-    "Design by Contract",
-    "Assertion",
-    "Precondition Postcondition"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Nguyen Phuong Thanh",
-      "homepage": "http://silver-bullet.info"
+    "name": "mio/ddd",
+    "description": "Implement all interface about ddd",
+    "homepage": "https://git.anphabe.net/mio/ddd",
+    "keywords": ["ddd", "domain driven"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ThanhNP",
+            "email": "thanh.phuong.nguyen@anphabe.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": { 
+            "Mio\\DDD\\": "src",
+            "Mio\\DDD\\Tests\\": "tests"
+         } 
     }
-  ],
-  "require": {
-    "php": ">=5.5"
-  },
-  "autoload": {
-    "psr-4": {
-      "DDD\\Contract\\": "Contract"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "DDD\\Contract\\Tests\\": "Contract/tests/"
-    }
-  }
 }
